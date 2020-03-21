@@ -22,7 +22,7 @@ def is_palindrome(word):
         else:
             return is_palindrome(word[1:-1])
         
-#Shake hand problem
+#Shake hands problem
 #In a party of N people, each person will shake her/his hand with each other person only once. 
 #On total how many hand-shakes would happen
 '''
@@ -42,7 +42,7 @@ def shake_hand(n):
 '''
 Description for recursive approach
 is an extension version of the earlier problem
-if one couple there is one shake hand = base case
+if one couple there will be a shake hand = base case
 if number of person greater than one handshakes will be 2n - 2 shakehands not happend = recursive case
 '''
 def shake_gender(n):
